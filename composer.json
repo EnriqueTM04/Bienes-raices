@@ -1,0 +1,22 @@
+{
+    "name": "enriq/bienes_raices_fn",
+    "description": "Proyecto bienes raices con POO",
+    "type": "roject",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "EnriqueTM04",
+            "email": "enriquetabo03@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.6",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
